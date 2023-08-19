@@ -21,13 +21,13 @@ class Encuestasc extends CI_Controller {
     //Indicamos el protocolo a utilizar
     $config['protocol'] = 'smtp';
     //El servidor de correo que utilizaremos
-    $config["smtp_host"] = 'mail.tramusacarrier.com.mx';
+    $config["smtp_host"] = 'smtp.titan.email';
     //Nuestro usuario
     $config["smtp_user"] = 'portal@tramusacarrier.com.mx';
     //Nuestra contraseña
     $config["smtp_pass"] = ']q5]cHBSk%M-';
     //El puerto que utilizará el servidor smtp
-    $config["smtp_port"] = '587';
+    $config["smtp_port"] = '465';
     //El juego de caracteres a utilizar
     $config['charset'] = 'utf-8';
     //Permitimos que se puedan cortar palabras
