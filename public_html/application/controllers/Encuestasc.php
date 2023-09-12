@@ -27,7 +27,7 @@ class Encuestasc extends CI_Controller {
     //Nuestra contraseña
     $config["smtp_pass"] = ']q5]cHBSk%M-';
     //El puerto que utilizará el servidor smtp
-    $config["smtp_port"] = '465';
+    $config["smtp_port"] = '587';
     //El juego de caracteres a utilizar
     $config['charset'] = 'utf-8';
     //Permitimos que se puedan cortar palabras
