@@ -19,7 +19,7 @@ class Cotizaciones extends CI_Controller {
     //Indicamos el protocolo a utilizar
     $config['protocol'] = 'smtp';
     //El servidor de correo que utilizaremos
-    $config["smtp_host"] = 'mail.tramusacarrier.com.mx';
+    $config["smtp_host"] = 'smtp.titan.email';
     //Nuestro usuario
     $config["smtp_user"] = 'portal@tramusacarrier.com.mx';
     //Nuestra contraseña
@@ -40,13 +40,7 @@ class Cotizaciones extends CI_Controller {
     //Ponemos la dirección de correo que enviará el email y un nombre
     $this->email->from('portal@tramusacarrier.com.mx', 'Portal TramusaCarrier');
 
-    /*
-    * Ponemos el o los destinatarios para los que va el email
-    * en este caso al ser un formulario de contacto te lo enviarás a ti
-    * mismo
-    */
-    //$this->email->to('info@tramusacarrier.com.mx', 'Cotización vía portal');
-    $this->email->cc('noe_meza.s@hotmail.com', 'Cotización vía portal');
+    $this->email->to('info@tramusacarrier.com.mx', 'Cotización vía portal');
     //Definimos el asunto del mensaje
     $this->email->subject($this->input->post("subject"));
     //Definimos el mensaje a enviar

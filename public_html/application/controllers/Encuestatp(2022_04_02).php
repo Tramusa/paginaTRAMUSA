@@ -18,10 +18,10 @@ class Encuestatp extends CI_Controller {
 
   public function sendEncuesta(){
 
-    //Indicamos el protocolo a utilizar
+   //Indicamos el protocolo a utilizar
     $config['protocol'] = 'smtp';
     //El servidor de correo que utilizaremos
-    $config["smtp_host"] = 'mail.tramusacarrier.com.mx';
+    $config["smtp_host"] = 'smtp.titan.email';
     //Nuestro usuario
     $config["smtp_user"] = 'portal@tramusacarrier.com.mx';
     //Nuestra contraseña

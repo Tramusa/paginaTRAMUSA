@@ -65,7 +65,7 @@
 							<li><a href="inicio">INICIO</a></li>
               <li><a href="nosotros">QUIÉNES SOMOS</a></li>
 							<li><a href="servicios">NUESTROS SERVICIOS</a></li>
-							<li><a href="#">ACCESO CLIENTES</a></li>
+							<li><a href="encuestasc">ACCESO CLIENTES</a></li>
               <li><a href="#">BLOG</a></li>
 							<li><a href="contacto">CONTACTO</a></li>
 						</ul>
